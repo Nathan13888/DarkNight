@@ -11,6 +11,9 @@
         "type": "git",
         "url": "https://github.com/Nathan13888/VSCodeTheme"
     },
+    "bugs": {
+        "url": "https://github.com/Nathan13888/VSCodeTheme/issues"
+    },
     "engines": {
         "vscode": "^1.43.0"
     },
@@ -24,17 +27,38 @@
     "categories": [
         "Themes"
     ],
-    "activationEvents": [
-        "*",
-        "onCommand:synthwave84.enableNeon"
-    ],
     "main": "./src/extension.js",
     "contributes": {
         "themes": [
             {
-                "label": "Dark Theme",
+                "label": "DarkTheme",
                 "uiTheme": "vs-dark",
-                "path": "./themes/synthwave-color-theme.json"
+                "path": "./themes/darktheme.json"
+            },
+            {
+                "label": "DarkTheme Italic",
+                "uiTheme": "vs-dark",
+                "path": "./themes/darktheme-italic.json"
+            },
+            {
+                "label": "DarkTheme Bold",
+                "uiTheme": "vs-dark",
+                "path": "./themes/darktheme-bold.json"
+            },
+            {
+                "label": "DarkTheme Bright",
+                "uiTheme": "vs",
+                "path": "./themes/darktheme-bright.json"
+            },
+            {
+                "label": "DarkTheme Bright Italic",
+                "uiTheme": "vs",
+                "path": "./themes/darktheme-bright-italic.json"
+            },
+            {
+                "label": "DarkTheme Bright Bold",
+                "uiTheme": "vs",
+                "path": "./themes/darktheme-bright-bold.json"
             }
         ],
         "commands": [],
