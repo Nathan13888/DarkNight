@@ -3,7 +3,7 @@ const mustache = require('mustache');
 
 const globals = require('./globals.json');
 const template = JSON.stringify(require(`${__dirname}/template.json`));
-const themeNames = ['darktheme', 'darktheme-italic', 'darktheme-bold'];
+const themeNames = ['darknight', 'darknight-italic', 'darknight-bold'];
 
 for (themeName of themeNames) {
   const content = require(`${__dirname}/${themeName}.json`);
