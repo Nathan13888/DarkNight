@@ -1,16 +1,14 @@
 {
-    "name": "darktheme",
-    "displayName": "DarkTheme",
-    "description": "A Utilitarian Dark-Mode Theme",
+    "name": "darknight",
+    "displayName": "Dark Night Theme",
+    "description": "A Utilitarian & Legible Dark Theme",
     "version": "0.0.1",
     "author": "Nathan Chung",
     "publisher": "Nathan13888",
     "license": "AGPL-3.0",
     "icon": "icon.png",
     "scripts": {
-        "build": "npm run build:dark && npm run build:bright",
-        "build:dark": "node src/dark/build",
-        "build:bright": "node src/bright/build"
+        "build": "node src/dark/build"
     },
     "repository": {
         "type": "git",
@@ -39,34 +37,34 @@
     "contributes": {
         "themes": [
             {
-                "label": "DarkTheme",
+                "label": "Dark Night",
                 "uiTheme": "vs-dark",
-                "path": "./themes/darktheme.json"
+                "path": "./themes/darknight.json"
             },
             {
-                "label": "DarkTheme Italic",
+                "label": "Dark Night Italic",
                 "uiTheme": "vs-dark",
-                "path": "./themes/darktheme-italic.json"
+                "path": "./themes/darknight-italic.json"
             },
             {
-                "label": "DarkTheme Bold",
+                "label": "Dark Night Bold",
                 "uiTheme": "vs-dark",
-                "path": "./themes/darktheme-bold.json"
+                "path": "./themes/darknight-bold.json"
             },
             {
-                "label": "DarkTheme Bright",
+                "label": "Dark Night Bright",
                 "uiTheme": "vs",
-                "path": "./themes/darktheme-bright.json"
+                "path": "./themes/darknight-bright.json"
             },
             {
-                "label": "DarkTheme Bright Italic",
+                "label": "Dark Night Bright Italic",
                 "uiTheme": "vs",
-                "path": "./themes/darktheme-bright-italic.json"
+                "path": "./themes/darknight-bright-italic.json"
             },
             {
-                "label": "DarkTheme Bright Bold",
+                "label": "Dark Night Bright Bold",
                 "uiTheme": "vs",
-                "path": "./themes/darktheme-bright-bold.json"
+                "path": "./themes/darknight-bright-bold.json"
             }
         ],
         "commands": [],
