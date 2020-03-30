@@ -36,7 +36,6 @@
     "categories": [
         "Themes"
     ],
-    "main": "./src/extension.js",
     "contributes": {
         "themes": [
             {
