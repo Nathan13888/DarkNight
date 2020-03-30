@@ -1,4 +1,4 @@
-# Contributing to SynthWave '84
+# Contributing to Dark Theme
 We appreciate any form of contribution as long as it follows the code of conduct listed below.
 
 ## Code of conduct
