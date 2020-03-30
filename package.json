@@ -8,7 +8,7 @@
 	"icon": "icon.png",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/robb0wen/synthwave-vscode"
+		"url": "https://github.com/Nathan13888/VSCodeTheme"
 	},
 	"engines": {
 		"vscode": "^1.33.0"
