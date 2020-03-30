@@ -1,35 +1,36 @@
 {
-    "name": "synthwave-vscode",
-    "displayName": "SynthWave '84",
-    "description": "A Synthwave-inspired colour theme to satisfy your neon dreams",
-    "version": "0.1.1",
-    "author": "Robb Owen",
-    "publisher": "RobbOwen",
+    "name": "darktheme",
+    "displayName": "DarkTheme",
+    "description": "A Utilitarian Dark-Mode Theme",
+    "version": "0.0.1",
+    "author": "Nathan Chung",
+    "publisher": "Nathan13888",
     "icon": "icon.png",
     "repository": {
         "type": "git",
-        "url": "https://github.com/robb0wen/synthwave-vscode"
+        "url": "https://github.com/Nathan13888/VSCodeTheme"
     },
     "engines": {
-        "vscode": "^1.33.0"
+        "vscode": "^1.43.0"
     },
     "keywords": [
-        "retro",
-        "80s"
+        "theme",
+        "themes",
+        "color",
+        "colour"
     ],
     "categories": [
         "Themes"
     ],
     "activationEvents": [
         "*",
-        "onCommand:synthwave84.enableNeon",
-        "onCommand:synthwave84.whatsNew"
+        "onCommand:synthwave84.enableNeon"
     ],
     "main": "./src/extension.js",
     "contributes": {
         "themes": [
             {
-                "label": "SynthWave '84",
+                "label": "Dark Theme",
                 "uiTheme": "vs-dark",
                 "path": "./themes/synthwave-color-theme.json"
             }
