@@ -8,7 +8,7 @@
     "license": "AGPL-3.0",
     "icon": "icon.png",
     "scripts": {
-        "build": "node src/dark/build"
+        "build": "node src/build"
     },
     "repository": {
         "type": "git",
