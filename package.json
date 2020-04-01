@@ -1,5 +1,5 @@
 {
-	"name": "theme.darknight",
+	"name": "theme-darknight",
 	"displayName": "Dark Night Theme",
 	"description": "A Utilitarian & Legible Dark Theme for VS Code",
 	"version": "0.1.1",
@@ -50,6 +50,11 @@
 				"label": "Dark Night Bold",
 				"uiTheme": "vs-dark",
 				"path": "./themes/darknight-bold.json"
+			},
+			{
+				"label": "Dark Night Bold Italic",
+				"uiTheme": "vs-dark",
+				"path": "./themes/darknight-bold-italic.json"
 			}
 		],
 		"configuration": {
