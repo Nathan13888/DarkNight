@@ -1,79 +1,56 @@
 {
-    "name": "darknight",
-    "displayName": "Dark Night Theme",
-    "description": "A Utilitarian & Legible Dark Theme",
-    "version": "0.0.1",
-    "author": "Nathan Chung",
-    "publisher": "Nathan13888",
-    "license": "AGPL-3.0",
-    "icon": "icon.png",
-    "scripts": {
-        "build": "node src/build"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/Nathan13888/VSCodeTheme"
-    },
-    "bugs": {
-        "url": "https://github.com/Nathan13888/VSCodeTheme/issues"
-    },
-    "engines": {
-        "vscode": "^1.43.0"
-    },
-    "galleryBanner": {
-        "color": "#FCEAE5",
-        "theme": "light"
-    },
-    "keywords": [
-        "theme",
-        "themes",
-        "color",
-        "colour",
-        "dark"
-    ],
-    "categories": [
-        "Themes"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "Dark Night",
-                "uiTheme": "vs-dark",
-                "path": "./themes/darknight.json"
-            },
-            {
-                "label": "Dark Night Italic",
-                "uiTheme": "vs-dark",
-                "path": "./themes/darknight-italic.json"
-            },
-            {
-                "label": "Dark Night Bold",
-                "uiTheme": "vs-dark",
-                "path": "./themes/darknight-bold.json"
-            },
-            {
-                "label": "Dark Night Bright",
-                "uiTheme": "vs",
-                "path": "./themes/darknight-bright.json"
-            },
-            {
-                "label": "Dark Night Bright Italic",
-                "uiTheme": "vs",
-                "path": "./themes/darknight-bright-italic.json"
-            },
-            {
-                "label": "Dark Night Bright Bold",
-                "uiTheme": "vs",
-                "path": "./themes/darknight-bright-bold.json"
-            }
-        ],
-        "commands": [],
-        "configuration": {
-            "title": "Dark Theme",
-            "properties": {}
-        }
-    },
-    "devDependencies": {
-        "mustache": "^3.0.1"
-    }
+	"name": "theme.darknight",
+	"displayName": "Dark Night Theme",
+	"description": "A Utilitarian & Legible Dark Theme",
+	"version": "0.1.1.04.20",
+	"author": "Nathan/Justin Chung",
+	"publisher": "Nathan13888",
+	"license": "AGPL-3.0",
+	"icon": "icon.png",
+	"scripts": {
+		"build": "node src/build"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Nathan13888/VSCodeTheme"
+	},
+	"bugs": {
+		"url": "https://github.com/Nathan13888/VSCodeTheme/issues"
+	},
+	"engines": {
+		"vscode": "^1.43.0"
+	},
+	"galleryBanner": {
+		"color": "#FCEAE5",
+		"theme": "light"
+	},
+	"keywords": [ "theme", "themes", "color", "colour", "dark" ],
+	"categories": [ "Themes" ],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Dark Night",
+				"uiTheme": "vs-dark",
+				"path": "./themes/darknight.json"
+			},
+			{
+				"label": "Dark Night Italic",
+				"uiTheme": "vs-dark",
+				"path": "./themes/darknight-italic.json"
+			},
+			{
+				"label": "Dark Night Bold",
+				"uiTheme": "vs-dark",
+				"path": "./themes/darknight-bold.json"
+			}
+		],
+		"commands": [],
+		"configuration": {
+			"title": "Dark Theme",
+			"properties": {}
+		}
+	},
+	"devDependencies": {
+		"mustache": "^3.0.1"
+	}
 }
