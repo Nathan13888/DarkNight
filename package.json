@@ -2,7 +2,7 @@
 	"name": "theme.darknight",
 	"displayName": "Dark Night Theme",
 	"description": "A Utilitarian & Legible Dark Theme for VS Code",
-	"version": "0.1.1.04.20",
+	"version": "0.1.1",
 	"author": "Nathan/Justin Chung",
 	"publisher": "Nathan13888",
 	"license": "AGPL-3.0",
@@ -24,8 +24,16 @@
 		"color": "#FCEAE5",
 		"theme": "light"
 	},
-	"keywords": [ "theme", "themes", "color", "colour", "dark" ],
-	"categories": [ "Themes" ],
+	"keywords": [
+		"theme",
+		"themes",
+		"color",
+		"colour",
+		"dark"
+	],
+	"categories": [
+		"Themes"
+	],
 	"contributes": {
 		"themes": [
 			{
@@ -44,7 +52,6 @@
 				"path": "./themes/darknight-bold.json"
 			}
 		],
-		"commands": [],
 		"configuration": {
 			"title": "Dark Theme",
 			"properties": {}
