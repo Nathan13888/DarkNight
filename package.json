@@ -44,11 +44,6 @@
 				"path": "./themes/darknight-bold.json"
 			},
 			{
-				"label": "Dark Night Bold Better",
-				"uiTheme": "vs-dark",
-				"path": "./themes/darknight-bold-better.json"
-			},
-			{
 				"label": "Dark Night Bold Italic",
 				"uiTheme": "vs-dark",
 				"path": "./themes/darknight-bold-italic.json"
