@@ -164,14 +164,15 @@
       "name": "Named entities",
       "scope": "entity.name",
       "settings": {
-        "foreground": "{{ syntax.tacao }}{{ alpha.high }}"
+        "foreground": "{{ syntax.pickle }}{{ alpha.highMed }}"
       }
     },
     {
       "name": "Function names",
       "scope": "entity.name.function",
       "settings": {
-        "foreground": "{{ syntax.turquoise }}{{ alpha.high }}"
+        "foreground": "{{ syntax.turquoise }}{{ alpha.high }}",
+        "fontStyle": "italic"
       }
     },
     {
@@ -186,7 +187,7 @@
       "name": "Static types",
       "scope": ["entity.name.type", "storage.type.cs"],
       "settings": {
-        "foreground": "{{ syntax.tacao }}{{ alpha.high }}"
+        "foreground": "{{ syntax.pickle }}{{ alpha.highMed }}"
       }
     },
     {
@@ -201,7 +202,7 @@
       "name": "Inherited classes",
       "scope": "entity.other.inherited-class",
       "settings": {
-        "foreground": "{{ syntax.rosebud }}{{ alpha.high }}"
+        "foreground": "{{ syntax.neon }}{{ alpha.high }}"
       }
     },
     {
@@ -215,7 +216,7 @@
       "name": "Pseudo CSS",
       "scope": ["entity.other.attribute-name.pseudo-element", "entity.other.attribute-name.pseudo-class"],
       "settings": {
-        "foreground": "{{ syntax.rosebud }}{{ alpha.high }}"
+        "foreground": "{{ syntax.neon }}{{ alpha.high }}"
       }
     },
     {
@@ -237,7 +238,7 @@
       "name": "Operators",
       "scope": "keyword.operator",
       "settings": {
-        "foreground": "{{ syntax.gray }}"
+        "foreground": "{{ syntax.aqua }}{{ alpha.high }}"
       }
     },
     {
@@ -263,7 +264,7 @@
       "name": "Markup quotes",
       "scope": "markup.quote",
       "settings": {
-        "foreground": "{{ syntax.rosebud }}{{ alpha.highMed }}",
+        "foreground": "{{ syntax.neon }}{{ alpha.highMed }}",
         "fontStyle": "italic"
       }
     },
@@ -301,7 +302,7 @@
       "name": "Markup links",
       "scope": "markup.underline.link",
       "settings": {
-        "foreground": "{{ syntax.rosebud }}{{ alpha.high }}"
+        "foreground": "{{ syntax.neon }}{{ alpha.high }}"
       }
     },
     {
@@ -316,7 +317,8 @@
       "name": "Strings",
       "scope": ["string.quoted", "string.template"],
       "settings": {
-        "foreground": "{{ syntax.rosebud }}{{ alpha.high }}"
+        "foreground": "{{ syntax.neon }}{{ alpha.high }}",
+        "fontStyle": "{{ keywordStyle }}"
       }
     },
     {
@@ -337,7 +339,7 @@
       "name": "Provided (support) values",
       "scope": "support",
       "settings": {
-        "foreground": "{{ syntax.tacao }}{{ alpha.high }}"
+        "foreground": "{{ syntax.pickle }}{{ alpha.highMed }}"
       }
     },
     {
@@ -372,7 +374,7 @@
       "name": "Language variables",
       "scope": ["variable.language"],
       "settings": {
-        "foreground": "{{ syntax.tacao }}{{ alpha.high }}",
+        "foreground": "{{ syntax.pickle }}{{ alpha.highMed }}",
         "fontStyle": "italic"
       }
     },
@@ -423,7 +425,7 @@
       "name": "Markup list punctuation",
       "scope": "punctuation.definition.list",
       "settings": {
-        "foreground": "{{ syntax.apricot }}{{ alpha.high }}"
+        "foreground": "{{ syntax.cranberry }}{{ alpha.high }}"
       }
     }
   ]

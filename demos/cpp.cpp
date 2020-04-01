@@ -1,7 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-//Defines
 #define F first
 #define S second
 #define PII pair<int, int>
@@ -39,10 +38,10 @@ int main()
         vect.push_back(x);
     }
 
-    ull foo = 5000;
+    ull foo = 5000LLU;
     PII pii = MP(69, 69);
     foo = bar(foo, "s", 6, 69.699, pii);
-    cin >> foo;
+    REP(i,1,69) cout << foo << "\n";
 
     return 0;
 }
