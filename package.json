@@ -12,10 +12,10 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/Nathan13888/VSCodeTheme"
+		"url": "https://github.com/Nathan13888/DarkNight"
 	},
 	"bugs": {
-		"url": "https://github.com/Nathan13888/VSCodeTheme/issues"
+		"url": "https://github.com/Nathan13888/DarkNight/issues"
 	},
 	"engines": {
 		"vscode": "^1.43.0"
@@ -58,6 +58,6 @@
 		}
 	},
 	"devDependencies": {
-		"mustache": "^3.0.1"
+		"mustache": "^4.0.1"
 	}
 }
