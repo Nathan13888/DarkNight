@@ -1,13 +1,13 @@
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
-public class java {
+public class Java {
     String name;
     String breed;
     int age;
     String colour;
 
-    public java(String name, String breed, int age, String colour) {
+    public Java(String name, String breed, int age, String colour) {
         this.name = name;
         this.breed = breed;
         this.age = age;
@@ -26,7 +26,7 @@ public class java {
             String breed = br.readLine().trim();
             int age = Integer.parseInt(br.readLine().trim());
             String colour = br.readLine().trim();
-            java newDog = new java(name, breed, age, colour);
+            Java newDog = new Java(name, breed, age, colour);
             System.out.println(newDog.toString()); 
         }
     } 

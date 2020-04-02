@@ -314,6 +314,22 @@
       }
     },
     {
+      "name": "Imports",
+      "scope": "storage.modifier.import",
+      "settings": {
+        "foreground": "{{ syntax.cranberry }}{{ alpha.high }}",
+        "fontStyle": "{{ keywordStyle }}"
+      }
+    },
+    {
+      "name": "Annotations",
+      "scope": "storage.type.annotation",
+      "settings": {
+        "foreground": "{{ syntax.pickle }}{{ alpha.high }}",
+        "fontStyle": "{{ keywordStyle }}"
+      }
+    },
+    {
       "name": "Strings",
       "scope": ["string.quoted", "string.template"],
       "settings": {
@@ -350,7 +366,7 @@
       }
     },
     {
-      "name": "Provieded variables",
+      "name": "Provided variables",
       "scope": "support.variable",
       "settings": {
         "foreground": "{{ syntax.cranberry }}{{ alpha.high }}"
