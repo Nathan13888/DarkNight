@@ -8,7 +8,7 @@ const themeNames = [
 	'darknight',
 	'darknight-italic',
 	'darknight-bold',
-	'darknight-bold-better',
+	'darknight-better-bold',
 	'darknight-bold-italic'
 ];
 
