@@ -34,19 +34,19 @@
 				"path": "./themes/darknight.json"
 			},
 			{
-				"label": "Dark Night Italic",
-				"uiTheme": "vs-dark",
-				"path": "./themes/darknight-italic.json"
-			},
-			{
 				"label": "Dark Night Bold",
 				"uiTheme": "vs-dark",
 				"path": "./themes/darknight-bold.json"
 			},
 			{
-				"label": "Dark Night Bold",
+				"label": "Dark Night Extra Bold",
 				"uiTheme": "vs-dark",
-				"path": "./themes/darknight-better-bold.json"
+				"path": "./themes/darknight-extra-bold.json"
+			},
+			{
+				"label": "Dark Night Italic",
+				"uiTheme": "vs-dark",
+				"path": "./themes/darknight-italic.json"
 			},
 			{
 				"label": "Dark Night Bold Italic",

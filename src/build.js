@@ -8,13 +8,13 @@ const themes = [
 	'darknight',
 	'darknight-italic',
 	'darknight-bold',
-	'darknight-better-bold',
+	'darknight-extra-bold',
 	'darknight-bold-italic'
 ];
 
-let content, theme;
+let variant, compiled;
 for (theme of themes) {
-	content = require(`${__dirname}/variants/${theme}.json`);
-	theme = mustache.render(template, { ...content, ...variables });
-	fs.writeFileSync(`${buildDir}/${theme}.json`, theme);
+	variant = require(`${__dirname}/variants/${theme}.json`);
+	compiled = mustache.render(template, { ...variant, ...variables });
+	fs.writeFileSync(`${buildDir}/${theme}.json`, compiled);
 }

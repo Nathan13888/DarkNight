@@ -5,19 +5,19 @@ public class java {
     String name;
     String breed;
     int age;
-    String color;
+    String colour;
 
-    public java(String name, String breed, int age, String color) {
+    public java(String name, String breed, int age, String colour) {
         this.name = name;
         this.breed = breed;
         this.age = age;
-        this.color = color;
+        this.colour = colour;
     }
 
     @Override
     public String toString() {
-        return ("Hi my name is " + this.getName() + ".\nMy breed,age and color are " + this.getBreed() + ","
-                + this.getAge() + "," + this.getColor());
+        return ("Hi my name is " + this.getName() + ".\nMy breed, age and colour are " + this.getBreed() + ","
+                + this.getAge() + "," + this.getcolour());
     }
 
     public static void main(String[] args) throws Exception {
@@ -47,8 +47,8 @@ public class java {
         return age; 
     } 
   
-    public String getColor() 
+    public String getcolour() 
     { 
-        return color; 
+        return colour; 
     } 
 } 
