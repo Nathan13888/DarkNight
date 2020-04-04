@@ -4,17 +4,17 @@ const mustache = require('mustache');
 const buildDir = `${__dirname}/../themes`;
 const variables = require('./variables.json');
 const template = JSON.stringify(require(`${__dirname}/template.json`));
-const themeNames = [
+const themes = [
 	'darknight',
 	'darknight-italic',
 	'darknight-bold',
-	'darknight-bold-better',
+	'darknight-extra-bold',
 	'darknight-bold-italic'
 ];
 
-let content, theme;
-for (themeName of themeNames) {
-	content = require(`${__dirname}/variants/${themeName}.json`);
-	theme = mustache.render(template, { ...content, ...variables });
-	fs.writeFileSync(`${buildDir}/${themeName}.json`, theme);
+let variant, compiled;
+for (theme of themes) {
+	variant = require(`${__dirname}/variants/${theme}.json`);
+	compiled = mustache.render(template, { ...variant, ...variables });
+	fs.writeFileSync(`${buildDir}/${theme}.json`, compiled);
 }
