@@ -1,6 +1,6 @@
 {
     "name": "Dark Night Bold",
     "keywordStyle": "bold",
-    "attributeStyle": "bold",
+    "attributeStyle": "normal",
     "tagStyle": "bold"
 }
