@@ -8,7 +8,8 @@
 	"license": "AGPL-3.0",
 	"icon": "icon.png",
 	"scripts": {
-		"build": "node src/build"
+		"build": "node src/build",
+		"package": "vsce package"
 	},
 	"repository": {
 		"type": "git",
@@ -24,8 +25,16 @@
 		"color": "#FCEAE5",
 		"theme": "light"
 	},
-	"keywords": [ "theme", "themes", "color", "colour", "dark" ],
-	"categories": [ "Themes" ],
+	"keywords": [
+		"theme",
+		"themes",
+		"color",
+		"colour",
+		"dark"
+	],
+	"categories": [
+		"Themes"
+	],
 	"contributes": {
 		"themes": [
 			{
@@ -60,6 +69,7 @@
 		}
 	},
 	"devDependencies": {
-		"mustache": "^4.0.1"
+		"mustache": "^4.0.1",
+		"vsce": "^1.75.0"
 	}
 }
