@@ -1,0 +1,61 @@
+{
+    // "editor.tokenColorCustomizations": {
+    //     "functions": {
+    //         "foreground": "#cdff1a",
+    //         "fontStyle": "italic"
+    //     },
+    //     "types": {
+    //         "foreground": "#e7bb5b",
+    //         "fontStyle": "bold"
+    //     },
+    //     "semanticHighlighting": true,
+    //     "numbers": "#fcf816",
+    //     "comments": "#555555",
+    //     "textMateRules": [
+    //         {
+    //             "scope": "keyword.operator",
+    //             "settings": {
+    //                 "foreground": "#34fcb9"
+    //             }
+    //         },
+    //         {
+    //             "scope": "entity.name.type",
+    //             "settings": {
+    //                 "foreground": "#1cf1d5",
+    //                 "fontStyle": "bold"
+    //             }
+    //         },
+    //         {
+    //             "scope": "entity.name.type.class.reference",
+    //             "settings": {
+    //                 "foreground": "#58c09d"
+    //             }
+    //         },
+    //         {
+    //             "scope": "variable.parameter",
+    //             "settings": {
+    //                 "foreground": "#00d9ff",
+    //                 "fontStyle": "italic bold"
+    //             }
+    //         },
+    //         {
+    //             "scope": "variable.other.property.cli",
+    //             "settings": {
+    //                 "foreground": "#1d7e8f",
+    //                 "fontStyle": "italic bold"
+    //             }
+    //         },
+    //         {
+    //             // Macros
+    //             "scope": "entity.name.function.preprocessor",
+    //             "settings": {
+    //                 "foreground": "#ff00d4",
+    //                 "fontStyle": "italic bold"
+    //             }
+    //         }
+    //     ]
+    // },
+    "files.associations": {
+        "iostream": "cpp"
+    }
+}
