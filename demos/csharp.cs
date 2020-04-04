@@ -2,6 +2,10 @@ using System;
 
 class Class : Inherited
 {
+    // Comment
+    /*
+        Multi-line Comment
+    */
     private int num = 29;
     private string str = "string";
     private bool boo = true;

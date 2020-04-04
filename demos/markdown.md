@@ -14,6 +14,8 @@
 **bold**
 _italic_
 
+<!-- Comment -->
+
 [footnote]: thing
 
 `code`

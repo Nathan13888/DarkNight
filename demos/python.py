@@ -1,6 +1,7 @@
 from collections import deque
 
 # comment
+
 def topo(G, ind=None, Q=[1]):
     if ind == None:
         ind = [0] * (len(G) + 1)
