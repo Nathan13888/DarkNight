@@ -17,9 +17,9 @@ ull bar(ull foo, string s, int i, float f, PII pair)
     return (10 * foo) * (s.length() / f);
 }
 
-// COMMENT
+// Comment
 /*
- * BLOCK COMMENT
+ * Block Comment
  */
 int main()
 {
@@ -41,7 +41,8 @@ int main()
     ull foo = 5000LLU;
     PII pii = MP(69, 69);
     foo = bar(foo, "s", 6, 69.699, pii);
-    REP(i,1,69) cout << foo << "\n";
+    REP(i, 1, 69)
+        cout << foo << "\n";
 
     return 0;
 }
