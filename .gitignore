@@ -117,3 +117,6 @@ dist
 
 # VS Code
 *.vsix
+
+# Build file
+themes
