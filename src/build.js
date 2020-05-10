@@ -12,24 +12,12 @@ const themes = [
 	'darknight-bold-italic'
 ];
 
-let variant, compiled;
+if(!fs.existsSync(buildDir)) fs.mkdirSync(buildDir);
 
+let variant, compiledTheme, writeDir;
 for (theme of themes) {
 	variant = require(`${__dirname}/variants/${theme}.json`);
-	compiled = tache.render(template, { ...variant, ...variables });
-	fs.writeFileSync(`${buildDir}/${theme}.json`, compiled);
+	writeDir = `${buildDir}/${theme}.json`;
+	compiledTheme = tache.render(template, { ...variant, ...variables });
+	fs.writeFileSync(writeDir, compiledTheme);
 }
-
-// const extra = require('./extras.json');
-// for (theme of themes) {
-// 	path = `${__dirname}/variants/${theme}`;
-// 	variant = require(path + '.json');
-// 	variant.name = `${variant.name} Extra`;
-// 	fs.writeFile(path, JSON.stringify(variant), function writeJSON(err) {
-// 		if (err) return console.log(err);
-// 		console.log(JSON.stringify(variant));
-// 		console.log('Writing to ' + path);
-// 	});
-// 	compiled = tache.render(template, { ...variant, ...variables, ...tache });
-// 	fs.writeFileSync(`${buildDir}/${theme}-extra.json`, compiled);
-// }
