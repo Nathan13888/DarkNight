@@ -38,11 +38,38 @@ int main()
         vect.push_back(x);
     }
 
+    enum color
+    {
+        RED,
+        GREEN,
+        BLUE
+    } r = RED;
+    switch (r)
+    {
+    case RED:
+        puts("red");
+        break;
+    case GREEN:
+        puts("green");
+        break;
+    case BLUE:
+        puts("blue");
+        break;
+    }
+
     ull foo = 5000LLU;
     PII pii = MP(69, 69);
     foo = bar(foo, "s", 6, 69.699, pii);
     REP(i, 1, 69)
-        cout << foo << "\n";
+    cout << foo << "\n";
 
     return 0;
 }
+
+template <typename T>
+T GetMax(T a, T b)
+{
+    return (a > b ? a : b);
+}
+
+template double GetMax<double>(double a, double b);
