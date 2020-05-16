@@ -9,7 +9,7 @@
 	"icon": "icon.png",
 	"scripts": {
 		"build": "node src/build",
-		"package": "vsce package"
+		"package": "npm run build && vsce package"
 	},
 	"repository": {
 		"type": "git",
